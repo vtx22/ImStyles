@@ -1,14 +1,4 @@
-#ifndef IMSTYLES_HPP
-#define IMSTYLES_HPP
-
-#include "imgui.h"
-#include "implot.h"
-
-enum imstyle
-{
-    DEFAULT_STYLE,
-    ULTRA_DARK,
-};
+#include "imstyles.hpp"
 
 void default_style()
 {
@@ -124,5 +114,3 @@ void set_style(imstyle style)
         break;
     }
 }
-
-#endif // IMSTYLES_HPP
