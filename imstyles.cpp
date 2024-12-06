@@ -8,7 +8,7 @@ void default_style()
     style.GrabRounding = 9;
     style.AntiAliasedFill = true;
     style.AntiAliasedLines = true;
-    style.AntiAliasedLinesUseTex = true;
+    style.AntiAliasedLinesUseTex = false;
 
     ImPlotStyle &plot_style = ImPlot::GetStyle();
     plot_style.LabelPadding = ImVec2(20, 10);
