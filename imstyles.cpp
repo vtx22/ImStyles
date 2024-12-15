@@ -38,7 +38,7 @@ void inspect_ultra_dark_style()
     colors[ImGuiCol_ScrollbarGrab] = ImVec4(0.34f, 0.34f, 0.34f, 0.54f);
     colors[ImGuiCol_ScrollbarGrabHovered] = ImVec4(0.40f, 0.40f, 0.40f, 0.54f);
     colors[ImGuiCol_ScrollbarGrabActive] = ImVec4(0.56f, 0.56f, 0.56f, 0.54f);
-    colors[ImGuiCol_CheckMark] = ImVec4(0.33f, 0.67f, 0.86f, 1.00f);
+    colors[ImGuiCol_CheckMark] = ImVec4(0.8f, 0.8f, 0.8f, 1.00f);
     colors[ImGuiCol_SliderGrab] = ImVec4(0.34f, 0.34f, 0.34f, 0.54f);
     colors[ImGuiCol_SliderGrabActive] = ImVec4(0.56f, 0.56f, 0.56f, 0.54f);
     colors[ImGuiCol_Button] = ImVec4(0.05f, 0.05f, 0.05f, 0.54f);
@@ -93,7 +93,7 @@ void inspect_ultra_dark_style()
     style.TabBorderSize = 1;
     style.WindowRounding = 7;
     style.ChildRounding = 4;
-    style.FrameRounding = 10;
+    style.FrameRounding = 2;
     style.PopupRounding = 4;
     style.ScrollbarRounding = 9;
     style.GrabRounding = 9;
