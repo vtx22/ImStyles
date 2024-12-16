@@ -15,7 +15,7 @@ void default_style()
     plot_style.Colormap = ImPlotColormap_Plasma;
 }
 
-void inspect_ultra_dark_style()
+void ultra_dark_style()
 {
     default_style();
     // Credit to https://github.com/janekb04
@@ -110,7 +110,7 @@ void set_style(imstyle style)
         default_style();
         break;
     case ULTRA_DARK:
-        inspect_ultra_dark_style();
+        ultra_dark_style();
         break;
     }
 }

@@ -10,5 +10,5 @@ enum imstyle
 };
 
 void default_style();
-void inspect_ultra_dark_style();
+void ultra_dark_style();
 void set_style(imstyle style);
